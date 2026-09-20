@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex Morgan — independent WordPress and WooCommerce developer. Thoughtful websites and online stores built for your next chapter.">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Alex Morgan — WordPress & WooCommerce Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{paper:'#f7f6f2',ink:'#252720',muted:'#73766c',accent:'#ed7044'},fontFamily:{sans:['DM Sans','sans-serif'],display:['Manrope','sans-serif']}}}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="bg-paper text-ink font-sans antialiased">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="border-b border-ink/10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
+      <a href="#" class="font-display font-extrabold text-xl tracking-tight" aria-label="Alex Morgan home">alex<span class="text-accent">.</span>morgan<span class="inline-block ml-2 text-accent text-2xl">✳</span></a>
+      <nav aria-label="Main navigation" class="hidden md:flex items-center gap-5 lg:gap-9 text-sm"><a href="#home">Home</a><a href="#expertise">Expertise</a><a href="#projects">Projects</a><a href="#about">About Me</a></nav>
+      <a href="#contact" class="hidden md:inline-flex button button-dark text-sm">Let’s talk <span>↗</span></a>
+      <button id="menu-toggle" class="md:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="dialog">Menu <span class="menu-bars" aria-hidden="true"><span></span><span></span></span></button>
+    </div>
+    <dialog id="mobile-menu" aria-label="Site menu">
+      <div class="mobile-menu-shell">
+        <div class="mobile-menu-top">
+          <a href="#home" class="mobile-menu-brand" aria-label="Alex Morgan home">alex<span>.</span>morgan</a>
+          <button id="menu-close" type="button" autofocus aria-label="Close menu">Close <span aria-hidden="true">×</span></button>
+        </div>
+        <div class="mobile-menu-body">
+          <p class="eyebrow mobile-menu-kicker">A LITTLE LOOK AROUND</p>
+          <nav class="mobile-menu-links" aria-label="Mobile navigation">
+            <a href="#home"><span class="menu-link-number" aria-hidden="true">01</span><span>Home</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a>
+            <a href="#expertise"><span class="menu-link-number" aria-hidden="true">02</span><span>Expertise</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a>
+            <a href="#projects"><span class="menu-link-number" aria-hidden="true">03</span><span>Projects</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a>
+            <a href="#about"><span class="menu-link-number" aria-hidden="true">04</span><span>About Me</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+        <div class="mobile-menu-bottom">
+          <p><span class="availability-dot" aria-hidden="true"></span> Available for new projects</p>
+          <a class="button button-dark mobile-menu-contact" href="#contact">Let’s build something good <span aria-hidden="true">↗</span></a>
+          <span class="mobile-menu-signoff">Thoughtful websites. Built with care.</span>
+        </div>
+      </div>
+    </dialog>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section id="home" class="hero-section max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-8 items-center">
+        <div class="reveal">
+          <p class="eyebrow flex items-center gap-2.5 mb-7"><span class="availability-dot"></span> INDEPENDENT DEVELOPER · AVAILABLE FOR WORK</p>
+          <h1 class="font-display text-[clamp(3rem,5.4vw,5rem)] leading-[1.08] font-semibold tracking-[-0.065em]">Good websites.<br>Better business.<br><span class="text-accent">Built with care.</span></h1>
+          <p class="text-muted leading-relaxed text-base md:text-lg max-w-md mt-7">Hey, I’m Alex. A WordPress & WooCommerce developer turning big ideas into websites that feel right — and work even better.</p>
+          <div class="flex flex-wrap gap-5 items-center mt-9"><a href="#projects" class="button button-dark">Explore my work <span>↗</span></a><a href="#contact" class="text-sm underline underline-offset-4 decoration-ink/30">Have a project in mind?</a></div>
+          <div class="flex items-center gap-3 mt-10 text-xs text-muted"><span class="text-lg text-ink" aria-hidden="true">⌘</span><span>Thoughtful design. Clean code. Zero headaches.</span></div>
+        </div>
+        <div class="hero-art hero-image-art reveal">
+          <img class="hero-image" src="assets/hero-store.svg" alt="Form and Field ecommerce website preview with a ceramic vase and warm neutral colors." width="640" height="560" fetchpriority="high" decoding="async">
+          <div class="floating-label label-wordpress"><span class="wp-icon">W</span> WordPress, done right.</div>
+          <div class="floating-label label-performance"><span class="performance-ring">98</span><div><b class="block text-sm">Fast feels good.</b><span class="text-[10px] text-muted">Built for performance</span></div><span class="text-green-700 ml-3">↗</span></div>
+          <div class="floating-label label-woo"><span class="woo-icon">woo</span> Ready to sell.</div>
+        </div>
+      </div>
+      <div class="toolkit-strip" role="region" aria-label="Development toolkit">
+        <div class="toolkit-intro"><p>A small toolkit.<br>A whole lot of possibilities.</p></div>
+        <ul class="logo-group" aria-label="Tools I work with">
+              <li><a class="brand-logo brand-wordpress" href="https://wordpress.org/" style="--brand-color:#21759b" aria-label="WordPress"><img src="assets/logos/wordpress.svg" alt="" width="100" height="40" loading="lazy"><span>WordPress</span></a></li>
+              <li><a class="brand-logo brand-woocommerce" href="https://woocommerce.com/" style="--brand-color:#96588a" aria-label="WooCommerce"><img src="assets/logos/woocommerce.svg" alt="" width="100" height="40" loading="lazy"></a></li>
+              <li><a class="brand-logo brand-elementor" href="https://elementor.com/" style="--brand-color:#92003b" aria-label="Elementor"><img src="assets/logos/elementor.svg" alt="" width="100" height="40" loading="lazy"><span>Elementor</span></a></li>
+              <li><a class="brand-logo brand-php" href="https://www.php.net/" style="--brand-color:#777bb4" aria-label="PHP"><img src="assets/logos/php.svg" alt="" width="100" height="40" loading="lazy"></a></li>
+              <li><a class="brand-logo brand-figma" href="https://www.figma.com/" style="--brand-color:#252720" aria-label="Figma"><img src="assets/logos/figma.svg" alt="" width="100" height="40" loading="lazy"><span>Figma</span></a></li>
+            </ul>
+      </div>
+    </section>
+    <section id="expertise" class="section border-t border-ink/10">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 / WHAT I BRING TO THE TABLE</p><h2>Built around your needs.</h2></div><p class="section-description">From the first wireframe to the final click.<br>I take care of the details, so you don’t have to.</p></div>
+      <div class="grid md:grid-cols-3 gap-5">
+        <article class="service-card reveal"><div class="service-icon">W</div><span class="card-number">01</span><h3>WordPress development</h3><p>Custom websites that look like you, load quickly, and are a joy to manage. No unnecessary complexity.</p><div class="tags"><span>Custom themes</span><span>Elementor</span><span>ACF</span></div></article>
+        <article class="service-card reveal"><div class="service-icon"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 4h2l3 12h11l2-9H6M9 20h.01M18 20h.01" stroke-linecap="round"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></div><span class="card-number">02</span><h3>WooCommerce stores</h3><p>Shopping experiences that turn browsing into buying. Thoughtful storefronts, smooth checkouts, happy customers.</p><div class="tags"><span>Store setup</span><span>Custom checkout</span></div></article>
+        <article class="service-card reveal"><div class="service-icon">↗</div><span class="card-number">03</span><h3>Speed & ongoing care</h3><p>A healthy website is a growing website. Keep yours fast, secure, and working beautifully, long after launch.</p><div class="tags"><span>Core Web Vitals</span><span>Maintenance</span></div></article>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / SELECTED WORK</p><h2>A few things I’ve built.</h2></div><div class="flex gap-2 flex-wrap" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All work</button><button class="filter" data-filter="wordpress" aria-pressed="false">WordPress</button><button class="filter" data-filter="woocommerce" aria-pressed="false">WooCommerce</button></div></div>
+      <div class="grid md:grid-cols-2 gap-x-7 gap-y-10" id="project-grid">
+        <article class="project reveal" data-category="woocommerce">
+          <div class="project-preview project-image-preview">
+            <img class="project-image" src="assets/projects/form-field.svg" alt="Form and Field homeware storefront with a ceramic vase and warm neutral colors" width="960" height="560" loading="lazy" decoding="async">
+            <span class="preview-badge">ECOMMERCE</span>
+          </div>
+          <div class="mt-5"><h3 class="font-display text-xl font-semibold">Form &amp; Field</h3><p class="text-sm text-muted mt-1">A considered home for considered objects.</p></div>
+          <div class="project-meta">WOOCOMMERCE <span>·</span> CUSTOM THEME <span>·</span> CONCEPT PROJECT</div>
+        </article>
+        <article class="project reveal" data-category="wordpress">
+          <div class="project-preview project-image-preview">
+            <img class="project-image" src="assets/projects/olive-studio.svg" alt="Olive Studio creative agency website with olive typography and a botanical star" width="960" height="560" loading="lazy" decoding="async">
+            <span class="preview-badge">BUSINESS WEBSITE</span>
+          </div>
+          <div class="mt-5"><h3 class="font-display text-xl font-semibold">Olive Studio</h3><p class="text-sm text-muted mt-1">A fresh digital space for a creative studio.</p></div>
+          <div class="project-meta">WORDPRESS <span>·</span> ELEMENTOR <span>·</span> CONCEPT PROJECT</div>
+        </article>
+        <article class="project reveal" data-category="woocommerce">
+          <div class="project-preview project-image-preview">
+            <img class="project-image" src="assets/projects/daily-roast.svg" alt="Daily Roast coffee storefront with terracotta colors and illustrated coffee packaging" width="960" height="560" loading="lazy" decoding="async">
+            <span class="preview-badge">ECOMMERCE</span>
+          </div>
+          <div class="mt-5"><h3 class="font-display text-xl font-semibold">Daily Roast</h3><p class="text-sm text-muted mt-1">A better online home for your morning ritual.</p></div>
+          <div class="project-meta">WOOCOMMERCE <span>·</span> CUSTOM STORE <span>·</span> CONCEPT PROJECT</div>
+        </article>
+        <article class="project reveal" data-category="wordpress">
+          <div class="project-preview project-image-preview">
+            <img class="project-image" src="assets/projects/northline.svg" alt="Northline architecture studio website with a modern house and editorial typography" width="960" height="560" loading="lazy" decoding="async">
+            <span class="preview-badge">BUSINESS WEBSITE</span>
+          </div>
+          <div class="mt-5"><h3 class="font-display text-xl font-semibold">Northline</h3><p class="text-sm text-muted mt-1">A calm, confident presence for an architecture studio.</p></div>
+          <div class="project-meta">WORDPRESS <span>·</span> CUSTOM THEME <span>·</span> CONCEPT PROJECT</div>
+        </article>
+      </div>
+      <p class="text-xs text-muted mt-7">A glimpse of what’s possible. These sample projects showcase my approach to design and development.</p>
+      <div class="mt-8"><a href="projects.html" class="button button-dark">View all projects <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section id="about" class="section">
+      <div class="about-panel grid md:grid-cols-[.85fr_1.15fr] gap-10 lg:gap-20 items-center reveal">
+        <div class="about-art"><div class="code-note"><div class="flex gap-1.5 mb-7"><i></i><i></i><i></i></div><p><span class="text-accent">const</span> developer = {</p><p class="pl-5">name: <span class="code-value">'Alex'</span>,</p><p class="pl-5">poweredBy: <span class="code-value">'coffee'</span>,</p><p class="pl-5">caresAbout: [</p><p class="pl-10 code-value">'the little details',</p><p class="pl-10 code-value">'your big picture'</p><p class="pl-5">]</p><p>};</p></div><div class="note-sticker">A real human.<br>Who loves the web. <span>↗</span></div></div>
+        <div><p class="eyebrow">03 / THE PERSON BEHIND THE PIXELS</p><h2 class="section-title">Your developer.<br>Your creative partner.</h2><p class="text-muted leading-relaxed mt-6">Hi again, I’m Alex — an independent developer with a soft spot for clean design and websites that just work.</p><p class="text-muted leading-relaxed mt-4">I work with small businesses, creatives, and ambitious people to build their little corner of the internet. You bring the vision. I bring the curiosity, the code, and a very hands-on approach.</p><div class="flex flex-wrap gap-x-7 gap-y-3 mt-7 text-sm"><span><b class="text-accent mr-2">✓</b> Clear communication</span><span><b class="text-accent mr-2">✓</b> Care in every detail</span></div><a href="#contact" class="inline-block mt-8 text-sm font-semibold underline underline-offset-8 decoration-ink/30">Let’s make something good together ↗</a></div>
+      </div>
+    </section>
+    <section id="contact" class="section pt-5">
+      <div class="contact-panel contact-layout reveal">
+        <div class="contact-intro">
+          <p class="eyebrow">04 / YOUR NEXT CHAPTER</p>
+          <h2>Have something<br>good in mind<span>?</span></h2>
+          <p class="text-muted mt-5 leading-relaxed">A new website, a better store, or an idea on a napkin. I’d love to hear about it.</p>
+          <div class="mt-7 text-sm text-muted flex flex-wrap gap-3 items-center">
+            <a id="contact-email" href="mailto:hello@example.com" class="hover:text-ink">hello@example.com</a>
+            <button type="button" id="copy-email" class="text-xs underline underline-offset-4" aria-label="Copy email address">Copy email</button>
+            <span id="copy-status" role="status" class="text-xs"></span>
+          </div>
+          <div class="contact-availability"><span class="availability-dot"></span> Open for new collaborations</div>
+          <span class="contact-flower" aria-hidden="true">✳</span>
+        </div>
+        <form id="contact-form" class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain" aria-labelledby="form-title" aria-describedby="form-help">
+          <h3 id="form-title">Let’s talk about your project.</h3>
+          <p class="form-required">All fields are required.</p>
+          <div class="form-row">
+            <div class="form-field"><label for="contact-name">Your name</label><input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Alex Smith" minlength="2" maxlength="80" required></div>
+            <div class="form-field"><label for="contact-reply">Email address</label><input id="contact-reply" name="email" type="email" autocomplete="email" placeholder="you@company.com" maxlength="150" required></div>
+          </div>
+          <div class="form-field">
+            <label for="contact-service">What can I help with?</label>
+            <select id="contact-service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="WordPress Website">WordPress Website</option>
+              <option value="WooCommerce Websites">WooCommerce Websites</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="contact-message">Tell me about your project</label><textarea id="contact-message" name="message" rows="5" minlength="20" maxlength="2000" placeholder="What are you building? Share your goals, timeline, and anything else I should know." aria-describedby="message-help" required></textarea><p id="message-help" class="field-help">20–2,000 characters. A little context goes a long way.</p></div>
+          <button type="submit" class="button button-dark form-submit">Send Message<span aria-hidden="true">↗</span></button>
+          <p id="form-help" class="field-help">Opens a draft in your email app. Review it there, then send. This form doesn’t send messages directly.</p>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <noscript><p class="field-help">JavaScript is off. Your email app will handle the form submission.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="max-w-7xl mx-auto px-6 lg:px-12 py-8 border-t border-ink/15 flex flex-wrap items-center justify-between gap-5 text-xs text-muted"><a href="#" class="font-display font-bold text-ink text-lg">alex<span class="text-accent">.</span>morgan</a><p>© <span id="year">2026</span> Alex Morgan. Built with purpose & a little coffee.</p><a href="#" class="text-ink">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
