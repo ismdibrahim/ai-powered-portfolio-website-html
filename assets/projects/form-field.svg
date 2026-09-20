@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <defs><pattern id="ribs" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="#c39a73"/><path d="M1 0v7" stroke="#a77953" stroke-width="2"/></pattern><linearGradient id="shade"><stop stop-color="#ac805b"/><stop offset=".45" stop-color="#ddba92"/><stop offset="1" stop-color="#b48b63"/></linearGradient></defs>
+  <rect width="960" height="560" fill="#e7e5dc"/>
+  <g transform="translate(55 44) rotate(-3 425 260)"><rect x="5" y="12" width="850" height="540" fill="#000" opacity=".05"/><rect width="850" height="540" fill="#faf8f0"/>
+    <g font-family="Arial,sans-serif" fill="#292d25"><text x="34" y="48" font-size="23" font-weight="700">form &amp; field.</text><text x="656" y="43" font-size="12">Shop   About   Cart (0)</text><path d="M0 78h850" stroke="#e2e1d7"/>
+    <text x="35" y="161" font-size="9" letter-spacing="2">OBJECTS WITH INTENTION</text><text x="35" y="232" font-family="Georgia,serif" font-size="51">A little less.</text><text x="35" y="290" font-family="Georgia,serif" font-size="51">A little better.</text><text x="35" y="333" font-size="11" fill="#73766c">Everyday essentials, thoughtfully made.</text><rect x="35" y="365" width="186" height="42" fill="#292d25"/><text x="51" y="391" fill="#fff" font-size="11">Explore the collection ↗</text>
+    <path d="M480 417V257a156 156 0 0 1 312 0v160z" fill="#ded8c6"/><ellipse cx="636" cy="395" rx="69" ry="12" fill="#b1a28a" opacity=".25"/><path d="M611 218v-29q0-7 7-7h35q7 0 7 7v29q42 20 42 79c0 58-25 96-66 96s-65-38-65-96q0-59 40-79" fill="url(#shade)"/><path d="M611 218v-29q0-7 7-7h35q7 0 7 7v29q42 20 42 79c0 58-25 96-66 96s-65-38-65-96q0-59 40-79" fill="url(#ribs)" opacity=".7"/>
+    <path d="M35 459h780" stroke="#e2e1d7"/><text x="35" y="486" font-size="9" letter-spacing="2">NATURAL MATERIALS   /   TIMELESS DESIGN   /   EVERYDAY LIVING</text></g>
+  </g>
+</svg>

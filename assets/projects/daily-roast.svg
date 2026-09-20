@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <defs><linearGradient id="bag" x2="1" y2=".3"><stop stop-color="#ba552f"/><stop offset=".5" stop-color="#d97848"/><stop offset="1" stop-color="#ac482c"/></linearGradient></defs>
+  <rect width="960" height="560" fill="#ead9ce"/>
+  <g transform="translate(53 43) rotate(2 425 260)"><rect x="5" y="12" width="850" height="540" fill="#000" opacity=".05"/><rect width="850" height="540" fill="#faf0df"/>
+    <g font-family="Arial,sans-serif" fill="#5b2d20"><text x="34" y="49" font-size="27" font-weight="700" letter-spacing="-1">daily roast<tspan fill="#c5673e">®</tspan></text><text x="625" y="44" font-size="11">Our coffee   Our story   Bag (0)</text><path d="M0 79h850" stroke="#e7d5c1"/>
+    <text x="35" y="159" font-size="9" letter-spacing="2">SMALL BATCH. BIG MORNING ENERGY.</text><text x="35" y="233" font-family="Georgia,serif" font-size="56">Wake up to</text><text x="35" y="296" font-family="Georgia,serif" font-size="56">something good.</text><text x="35" y="336" font-size="11">Freshly roasted. Responsibly sourced. Always delicious.</text><rect x="35" y="370" width="160" height="43" rx="21" fill="#5b2d20"/><text x="57" y="397" fill="#faf0df" font-size="11">Find your daily brew ↗</text>
+    <circle cx="657" cy="276" r="143" fill="#ead3b7"/><ellipse cx="656" cy="409" rx="104" ry="16" fill="#80472f" opacity=".12"/>
+    <g transform="rotate(-9 657 280)"><path d="M589 150h137l12 242q-80 23-159 0z" fill="url(#bag)"/><path d="M590 159h135M589 165h137" stroke="#813a25" opacity=".6"/><rect x="597" y="222" width="123" height="116" fill="#faf0df"/><text x="611" y="253" font-size="22" font-weight="700">daily roast.</text><path d="M642 279q18-25 33 0-18 25-33 0" fill="#6b3827"/><path d="m660 267-4 25" stroke="#faf0df" stroke-width="2"/><text x="620" y="318" font-size="9" letter-spacing="2">HOUSE BLEND</text><text x="632" y="368" font-size="9" fill="#fff1db">250g / WHOLE BEAN</text></g>
+    <path d="M35 462h780" stroke="#e7d5c1"/><text x="35" y="490" font-size="9" letter-spacing="2">FRESHLY ROASTED   /   ETHICALLY SOURCED   /   MADE FOR YOUR EVERYDAY</text></g>
+  </g>
+</svg>
